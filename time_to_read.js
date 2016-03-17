@@ -15,13 +15,13 @@ $(window).ready(function(){
 
   // function
 
-  timeToRead = function(words, wpm){
+  timeToRead = function(words, wpm = 230){
 
     alert(parseFloat(words/wpm).toFixed(2) + " minutes to read this page.");
 
   };
 
- timeToRead(werdzCount, werdzPerMinute)
+ timeToRead(werdzCount)
 
 
 
